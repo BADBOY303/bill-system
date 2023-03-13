@@ -1,17 +1,14 @@
-CREATE DATABASE pharmacymanagement;
+CREATE DATABASE food;
 
-USE pharmacymanagement;
+USE food;
 
-CREATE TABLE details (
-    Id INT,
-    name VARCHAR(255),
-    age INT,
-    gender VARCHAR(10),
-    problem VARCHAR(255),
-    tabletname VARCHAR(255),
-    tabletcount INT,
-    cost FLOAT,
-    discount FLOAT,
-    total VARCHAR(255),
-    save VARCHAR(255)
+CREATE TABLE count (
+    dosa INT(11),
+    puri INT(11),
+    khichdi INT(11),
+    dal_rice INT(11),
+    mutton_biriyani INT(11),
+    chicken_biriyani INT(11)
+    fish_fry INT(11),
+    total INT(11)
 );
